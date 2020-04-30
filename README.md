@@ -1,7 +1,8 @@
 # NSI_WebIHM_Pattern
 Patron pour le projet Web IHM
 
-Outil sous MacOSx : https://sourceforge.net/projects/git-osx-installer/ 
+Outil sous MacOSx : https://sourceforge.net/projects/git-osx-installer/
+
 Détails sur les commande git : https://openclassrooms.com/fr/courses/1233741-gerez-vos-codes-source-avec-git
 
 
