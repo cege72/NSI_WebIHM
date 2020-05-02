@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Mon 1er projet PHP</title>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+			<script type="text/javascript" src="js/controle.js" async></script> <!-- ce fichier n'existe pas encore -->
+	</head>
+	
+	<body>
+	 		
+		<div id= "content">
+	
+		<p><h1>Mon premier projet en PHP</h1></p><BR/>
+		
+		<form action="Traitement.php" method="post" name="Formulaire">
+		
+			<div class="row">
+
+                <div class="col-md-6 col-sm-12">
+					<div class="form-group">
+						<label for="prenom">Prénom</label>
+						<input type="text" class="form-control" id="prenom" name="prenom">
+					</div>
+					
+					<div class="form-group">
+						<label for="dateNaiss">Date de naissance</label>
+						<input type="date" class="form-control" id="dateNaiss" name="dateNaiss">
+					</div>
+				</div>
+			</div>
+	
+			<button type="submit" class="btn btn-primary btn-expand">Envoyer</button>
+			<button type="reset" class="btn btn-primary btn-expand">Annuler</button>
+		
+		</form>
+
+		</div> 
+	</body>
+</html>

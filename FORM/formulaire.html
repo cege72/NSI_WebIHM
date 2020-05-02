@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Formulaire test</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+      <p><h1>Exemple de formulaire de saisie </h1></p><br>
+
+	   <!--Création de mon formulaire-->
+		<form  action="traitement.html" method="GET" class="form-group" name="formSaisie">
+			<table>
+				<tbody>
+                <tr>  <!--Champ de saisie-->
+                    <td>Libellé*</td>
+                    <td><input type="text" name="TLibelle" id="idLibelle"></td>
+					<td> <img src="image/bob.png" class="form-img"></td>
+                </tr>
+                <tr>  <!--Champ de saisie-->
+                    <td>Prix</td>
+                    <td><input type="text" name="TPrix" id="idPrix"></td>
+                </tr>
+                <tr>  <!--Boutons radio-->
+                    <td><input type="radio" class="custom-radio" name="opt" id="idNon">non</td>
+                    <td><input type="radio" class="custom-radio" name="opt" id="idOui">oui</td>
+                </tr>
+                <tr>  <!--Liste déroulante-->
+                    <td><label for="lstJour" class="liste">Choisir un jour:</label></td>
+                    <td>
+					     <select name="jours" id="lstJour">
+						  <option value="none">--Choisir un jour</option>
+						  <option value="lundi">Lundi</option>
+						  <option value="mardi">Mardi</option>
+						  <option value="mercredi">Mercredi</option>
+						  <option value="jeudi">Jeudi</option>
+						  <option value="vendredi">Vendredi</option>
+					     </select>
+					</td>
+				   </tr>
+				</tbody>
+			</table>
+
+            <h2 class="small">( * Champs obligatoire )</h2><br>
+ 			<!--Boutons de contrôle-->
+			<input type="submit" class="btn-expand btn-primary" value="Valider">
+			<input type="reset" class="btn-expand" value="Effacer le formulaire">
+		</form>
+
+
+	</body>
+</html>
